@@ -1,0 +1,115 @@
+* {
+    font-family: sans-serif;
+}
+.cajatitulo {
+    background-color: whitesmoke;
+    padding: 1%;
+    font-size: larger;
+}
+
+.cajapedirtabla {
+    text-align: right;
+}
+
+#formulariotabla {
+    display:flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+#formulariotabla * {
+    margin: 5px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del encabezado de la tabla */
+  thead th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Estilo de las celdas de datos */
+  td {
+    padding: 8px;
+  }
+  
+  /* Estilo de las filas impares */
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo de las filas al pasar el cursor */
+  tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Estilo de la tabla cuando no tiene datos */
+  tbody td:empty::before {
+    content: "-";
+    color: #999;
+  }
+  
+  .tabla-nueva{
+    margin: 5px;
+  }
+
+  .sup-table {
+    padding: 10px;
+  }
+
+  .sup-table Img {
+    margin: 5px;
+  }
+  /* Ajustes adicionales de estilo según tus preferencias */
+  /* ... */
+
+  .form-modal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: -10px;
+    overflow: hidden;
+    height: 101%;
+    width: 100.5%;
+    background-color: rgba(0, 0, 0, 0.213)
+  } 
+
+  .form-modal #form-IU {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    top: 25%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    padding-top: 3%;
+  }
+  
+  .form-modal #form-IU div {
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .err {
+    border-style: inherit;
+    border-color: red;
+    border: 5px;
+  }
+  
