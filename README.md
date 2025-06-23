@@ -1,2 +1,2 @@
-# TableGeneratorInterface
-Frontend app with dynamic HTML generation via JavaScript. Connects to a backend to display and manage data across multiple tables. Supports full CRUD operations with field validation based on defined constraints.
+# Table Generator Interface
+Frontend application that interacts with a backend API to manage and display data across multiple tables. It was built to demonstrate efficient dynamic UI rendering and solid form validation techniques. It implements dynamic HTML generation using JavaScript (no frameworks), has full CRUD support (Create, Read, Update, Delete), allows search and filter per table and field validation based on defined constraints. 
